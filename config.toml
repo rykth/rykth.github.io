@@ -1,4 +1,4 @@
-baseURL = "https://rickkoch.github.com"
+baseURL = "https://rykth.github.com"
 languageCode = "en-us"
 title = "Risto Kochev"
 # theme="archie"
@@ -10,11 +10,12 @@ pygmentscodefencesguesssyntax = true
 	mode="auto"
 	useCDN=false
 	subtitle = "A place to share my thoughts."
+	favicon = "/favicon.png"
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/rickKoch"
+url = "https://github.com/rykth"
 
 [[params.social]]
 name = "Twitter"

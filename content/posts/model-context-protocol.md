@@ -340,7 +340,7 @@ assistant can get the right information or perform the right task.
 
 ## Running the Server
 
-Please check out [go-mcp](https://github.com/rickKoch/go-mcp) repository for
+Please check out [go-mcp](https://github.com/rykth/go-mcp) repository for
 full implementation and documentation.
 
 ![mcp example](/images/go-mcp3.gif "mcp example")

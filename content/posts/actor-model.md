@@ -19,7 +19,7 @@ multiple threads enables concurrency. Similarly, in the Actor Model, multiple
 actors running concurrently allow for parallelism and distributed processing.
 
 All the example from this code and the simple actor model implementation you
-can find it in the github repository: [actor-model](https://github.com/rickKoch/actor-model)
+can find it in the github repository: [actor-model](https://github.com/rykth/actor-model)
 
 ### Actors are persistent
 

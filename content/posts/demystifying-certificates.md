@@ -254,14 +254,14 @@ openssl genpkey -algorithm ED25519 > ed25519.key
 openssl pkey -in ed25519.key -pubout -out ed25519.pub
 ```
 
-3. Next create a configuration file for the certificate [cert.config](https://github.com/rickKoch/certs/blob/main/example_certs/cert.config)
+3. Next create a configuration file for the certificate [cert.config](https://github.com/rykth/certs/blob/main/example_certs/cert.config)
 
 4. Now generate the certificate
 ```bash
 openssl req -config cert.config -new -x509 -days 3652 -key ed25519.key -out ed25519.crt
 ```
 	
-5. Print the binary representation of the certificate. [cert file](https://github.com/rickKoch/certs/blob/main/example_certs/ed25519.crt)
+5. Print the binary representation of the certificate. [cert file](https://github.com/rykth/certs/blob/main/example_certs/ed25519.crt)
 ```bash
 echo MIIB9TCCAaegAwIBAgIUbpT... | base64 -D | xxd
 ```
@@ -443,4 +443,4 @@ func (c *Certificate) Sign(signer *Certificate, pk ed25519.PrivateKey) error {
 ```
 
 Full example with generating CAs and signing certificates can be found in the
-example [github repository](https://github.com/rickKoch/certs)
+example [github repository](https://github.com/rykth/certs)

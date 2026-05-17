@@ -29,7 +29,7 @@ adds a circuit breaker to stop sending requests to broken services, and the
 requests again in a smart way (retry). We'll start with the policy and policy
 provider first.
 
-You can check the full implementation in the [github repo](https://github.com/rickKoch/go-resilience)
+You can check the full implementation in the [github repo](https://github.com/rykth/go-resilience)
 
 ## Policy and Policy Provider
 
